@@ -15,5 +15,5 @@ function sum(...arg) {
   return arg.reduce((current, next) => current + next);
 }
 console.log(sum(1, 1)); //
-console.log(sum(2, 1, 1, 1)); // 5
+console.log(sum(2, 1, 1, 1)); //
 console.log(sum(2, 2, 0,2,3,5)); // 14
